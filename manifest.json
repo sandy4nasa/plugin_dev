@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stock price alert",
+  "description": "This extension shows an alert for a stock symbol",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "stockmarket.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
